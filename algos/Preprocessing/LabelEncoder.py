@@ -1,4 +1,4 @@
-from ...base.base_preprocessing import *
+from mla.base.base_preprocessing import *
 
 class LabelEncoder(BasePreprocessing):
     def fit(self, array):
@@ -9,7 +9,7 @@ class LabelEncoder(BasePreprocessing):
                 value_id += 1
 
     def transform(self, array):
-        for i in range(len(array)):
+        for i, data in enumerate(array):
             if not array[i] in self.memo_:
                 return False
             array[i] = self.memo_[array[i]]
