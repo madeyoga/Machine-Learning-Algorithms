@@ -1,4 +1,4 @@
-from mla.algos.Preprocessing.LabelEncoder import *
+from mla.algos.Preprocessing.LabelEncoder import LabelEncoder
 
 le = LabelEncoder()
 le.fit(['x', 'x', 'x', 'y', 'z'])
