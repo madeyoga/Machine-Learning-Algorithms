@@ -7,6 +7,6 @@ class MinMaxScaler(BasePreprocessing):
         min_val = np.min(array)
         top = array - min_val
         bott = max_val - min_val
-        _np_coef = top / bott
-        return _np_coef
+        scaled_values = top / bott
+        return scaled_values
     
