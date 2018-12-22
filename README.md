@@ -17,3 +17,4 @@ Machine Learning Algorithms
 - K-Nearest Neighbors
   - Naive
 - Gaussian Naive Bayes
+- Model Selection, train test split & Cross Validation
