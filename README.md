@@ -14,7 +14,6 @@ Machine Learning Algorithms
   - F1-Score
 - Linear Regression
   -  Ordinary Least Square Method :ballot_box_with_check:
-- K-Nearest Neighbors
-  - Naive
+- K-Nearest Neighbors:ballot_box_with_check:
 - Gaussian Naive Bayes
 - Model Selection, train test split & Cross Validation
