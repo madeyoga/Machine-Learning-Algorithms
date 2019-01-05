@@ -22,6 +22,8 @@ X_train['gender'] = scaler.transform(X_train['gender'])
 print(X_train)
 
 ## Create Model
-knn = KNeighborsClassifier(n_neighbors=3)
+knn = KNeighborsClassifier(n_neighbors=2)
+## Train Model
 knn.fit(X_train.values, y_train.values) ## pass numpy array instead of pandas DataFrame
+## Predict
 print(knn.predict([[1, 0.3], [0, 0.4]]))
