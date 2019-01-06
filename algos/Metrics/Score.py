@@ -18,3 +18,17 @@ def r2_score(y1, y2):
     ss_r = ((y1 - y2) ** 2).sum(0)
     
     return 1 - (ss_r/ss_t)
+
+def accuracy_score(y1, y2):
+    y1 = np.array(y1)
+    y2 = np.array(y2)
+    if y1.shape != y2.shape:
+        raise ValueError('different shape, {} & {} '.format(len(y1), len(y2)))
+    count_true_pred = 0
+    for i, data in enumerate(y1):
+        if data == y2[i]:
+            count_true_pred += 1
+    return count_true_pred / y1.shape[0] * 100
+        
+    
+                                                                
