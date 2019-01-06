@@ -26,4 +26,11 @@ knn = KNeighborsClassifier(n_neighbors=2)
 ## Train Model
 knn.fit(X_train.values, y_train.values) ## pass numpy array instead of pandas DataFrame
 ## Predict
-print(knn.predict([[1, 0.3], [0, 0.4]]))
+x_test = [[1, 0.3], [0, 0.4]]
+pred_y = knn.predict([[1, 0.3], [0, 0.4]])
+print("Prediction: " + str(pred_y))
+y_test = ['high', 'high']
+print("Actual Val: " + str(y_test))
+## Model's Accuracy
+from mla.algos.Metrics.Score import accuracy_score
+print(str(accuracy_score(pred_y, y_test)) + "%")
