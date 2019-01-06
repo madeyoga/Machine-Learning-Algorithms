@@ -9,7 +9,7 @@ Machine Learning Algorithms
 - Metrics, Error & Accuracy
   - Root Mean Squared Error :ballot_box_with_check:
   - R2 Score :ballot_box_with_check:
-  - Accuracy Score
+  - Accuracy Score :ballot_box_with_check:
   - Confusion Matrix
   - F1-Score
 - Linear Regression
