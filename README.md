@@ -1,7 +1,7 @@
 # ML-Algos
 [![CodeFactor](https://www.codefactor.io/repository/github/madeyoga/ml-algos/badge/master)](https://www.codefactor.io/repository/github/madeyoga/ml-algos/overview/master)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MadeYoga/San/issues)
-![Discord Badge](https://discordapp.com/api/guilds/458296099049046018/embed.png)
+[![Discord Badge](https://discordapp.com/api/guilds/458296099049046018/embed.png)](https://discord.gg/Y8sB4ay)
 
 Machine Learning Algorithms
 
