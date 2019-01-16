@@ -1,4 +1,4 @@
-from mla.base.distances import *
+from mla.base.distances import euclidean_distance
 import operator as op
 
 def get_neighbors(y_train, X_train, test_sample, k):
@@ -36,7 +36,7 @@ class KNeighborsClassifier:
         self.X_train = X_train
         self.y_train = y_train
         return
-    
+
     def predict(self, X_test):
         predicted_classes = []
         for test_sample in X_test:
@@ -49,5 +49,3 @@ class KNeighborsClassifier:
             predicted_y = vote_(neighbors, self.X_train)
             predicted_classes.append(predicted_y)
         return predicted_classes
-
-    
