@@ -5,19 +5,21 @@
 
 Machine Learning Algorithms
 
-## To Do List
-- Label Encoder :ballot_box_with_check:
-- Min Max Normalization
-  - [0,1] :ballot_box_with_check:
-  - [x1,x2]
-- Metrics, Error & Accuracy
+## Available methods
+- Label Encoder
+- MinMaxNormalization [0,1]
+- Accuracy Score
   - Root Mean Squared Error :ballot_box_with_check:
   - R2 Score :ballot_box_with_check:
   - Accuracy Score :ballot_box_with_check:
+- Linear Regression - Ordinary Least Square Method
+- K-Nearest Neighbors
+
+## To Do List
+- Min Max Normalization  
+  - [x1,x2]
+- Metrics, Error & Accuracy
   - Confusion Matrix
   - F1-Score
-- Linear Regression
-  -  Ordinary Least Square Method :ballot_box_with_check:
-- K-Nearest Neighbors:ballot_box_with_check:
 - Gaussian Naive Bayes
 - Model Selection, train test split & Cross Validation
