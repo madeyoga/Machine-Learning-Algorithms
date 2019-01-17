@@ -9,9 +9,9 @@ Machine Learning Algorithms
 - Label Encoder
 - MinMaxNormalization [0,1]
 - Accuracy Score
-  - Root Mean Squared Error :ballot_box_with_check:
-  - R2 Score :ballot_box_with_check:
-  - Accuracy Score :ballot_box_with_check:
+  - Root Mean Squared Error 
+  - R2 Score 
+  - Accuracy Score 
 - Linear Regression - Ordinary Least Square Method
 - K-Nearest Neighbors
 
