@@ -1,5 +1,6 @@
 from mla.base.distances import euclidean_distance
 import operator as op
+import numpy as np
 
 def get_neighbors(y_train, X_train, test_sample, k):
     # get distances
