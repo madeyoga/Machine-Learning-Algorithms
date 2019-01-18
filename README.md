@@ -6,7 +6,7 @@
 
 Machine Learning Algorithms
 
-## Available methods
+## Available Algorithms
 - Label Encoder
 - MinMaxNormalization [0,1]
 - Accuracy Score
@@ -15,6 +15,7 @@ Machine Learning Algorithms
   - Accuracy Score 
 - Linear Regression - Ordinary Least Square Method
 - K-Nearest Neighbors
+- Gaussian Naive Bayes
 
 ## To Do List
 - Min Max Normalization  
@@ -22,5 +23,4 @@ Machine Learning Algorithms
 - Metrics, Error & Accuracy
   - Confusion Matrix
   - F1-Score
-- Gaussian Naive Bayes
 - Model Selection, train test split & Cross Validation
