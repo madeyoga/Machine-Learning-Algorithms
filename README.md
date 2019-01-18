@@ -1,7 +1,7 @@
 # ML-Algos
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/66cbfc3c5cd54da1bb5a923a3afb35d1)](https://app.codacy.com/app/MadeYoga/ML-Algos?utm_source=github.com&utm_medium=referral&utm_content=MadeYoga/ML-Algos&utm_campaign=Badge_Grade_Dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/madeyoga/ml-algos/badge/master)](https://www.codefactor.io/repository/github/madeyoga/ml-algos/overview/master)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MadeYoga/San/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MadeYoga/ML-Algos/issues)
 [![Discord Badge](https://discordapp.com/api/guilds/458296099049046018/embed.png)](https://discord.gg/Y8sB4ay)
 
 Machine Learning Algorithms
