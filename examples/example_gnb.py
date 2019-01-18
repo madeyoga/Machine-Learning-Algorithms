@@ -1,5 +1,6 @@
 from mla.algos.classification.naive_bayes import GaussianNB
 from mla.algos.preprocessing.encoder import LabelEncoder
+from mla.algos.metrics.score import accuracy_score
 import pandas as pd
 
 df = pd.read_csv('Datasets/gwr.csv')
@@ -11,3 +12,10 @@ X_train['gender'] = LabelEncoder().fit_transform(X_train['gender'].values)
 
 gnb = GaussianNB()
 gnb.fit(X_train.values, y_train.values)
+
+X_test = [[1, 175], [2, 130]]
+y_test = ['high', 'high']
+
+pred_y = gnb.predict(X_test)
+print("predicted y: " + str(pred_y))
+print("accuracy score: " + str(accuracy_score(pred_y, y_test)))
