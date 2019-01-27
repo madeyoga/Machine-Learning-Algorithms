@@ -12,6 +12,7 @@ Hope this project could help those who wanted to learn machine learning agorithm
 
 ## Dependencies
 - Numpy
+- matplotlib & pandas (to run examples)
 
 ## Available Algorithms
 - Label Encoder
