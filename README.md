@@ -1,12 +1,20 @@
-# ML-Algos
+# Machine-Learning-Algorithms
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/66cbfc3c5cd54da1bb5a923a3afb35d1)](https://app.codacy.com/app/MadeYoga/ML-Algos?utm_source=github.com&utm_medium=referral&utm_content=MadeYoga/ML-Algos&utm_campaign=Badge_Grade_Dashboard)
-[![CodeFactor](https://www.codefactor.io/repository/github/madeyoga/ml-algos/badge/master)](https://www.codefactor.io/repository/github/madeyoga/ml-algos/overview/master)
+[![CodeFactor](https://www.codefactor.io/repository/github/madeyoga/mla/badge)](https://www.codefactor.io/repository/github/madeyoga/mla)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MadeYoga/ML-Algos/issues)
 [![Discord Badge](https://discordapp.com/api/guilds/458296099049046018/embed.png)](https://discord.gg/Y8sB4ay)
 
-Machine Learning Algorithms
+Machine Learning Algorithms Implementation. Trying to create machine learning algorithms from scratch in simple way.
+Hope this project could help those who wanted to learn machine learning agorithms.
 
-## Available methods
+## Requirements
+- Python 3.x
+
+## Dependencies
+- Numpy
+- matplotlib & pandas (to run examples)
+
+## Available Algorithms
 - Label Encoder
 - MinMaxNormalization [0,1]
 - Accuracy Score
@@ -15,6 +23,7 @@ Machine Learning Algorithms
   - Accuracy Score 
 - Linear Regression - Ordinary Least Square Method
 - K-Nearest Neighbors
+- Gaussian Naive Bayes
 
 ## To Do List
 - Min Max Normalization  
@@ -22,5 +31,4 @@ Machine Learning Algorithms
 - Metrics, Error & Accuracy
   - Confusion Matrix
   - F1-Score
-- Gaussian Naive Bayes
 - Model Selection, train test split & Cross Validation
