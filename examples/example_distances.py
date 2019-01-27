@@ -1,4 +1,4 @@
-from mla.base.distances import euclidean_distance
+from pymla.model.base.distances import euclidean_distance
 
 A = [176, 72]
 B = [154, 85]

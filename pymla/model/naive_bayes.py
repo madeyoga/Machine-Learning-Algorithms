@@ -1,6 +1,6 @@
 import numpy as np
 import math
-from mla.base.statistic import std_dev
+from pymla.model.base.statistic import std_dev
 
 def gaussian_proba(xi, avg, variance):
     # print((2*math.pi*variance)**0.5)

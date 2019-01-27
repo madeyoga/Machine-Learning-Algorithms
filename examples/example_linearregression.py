@@ -1,6 +1,6 @@
-from mla.algos.regression.linear_model import LinearRegression
-from mla.algos.metrics.score import root_mean_squared_error
-from mla.algos.metrics.score import r2_score
+from pymla.model.linear_model import LinearRegression
+from pymla.metrics.score import root_mean_squared_error
+from pymla.metrics.score import r2_score
 import pandas as pd
 
 ## Fetch Data

@@ -1,5 +1,5 @@
-from mla.base.base_preprocessing import BasePreprocessing
-from mla.base.base_preprocessing import np
+from pymla.preprocessing.base import BasePreprocessing
+from pymla.preprocessing.base import np
 
 class MinMaxScaler(BasePreprocessing):
     

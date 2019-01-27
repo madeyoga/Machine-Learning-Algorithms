@@ -1,4 +1,5 @@
-from mla.base.base_estimator import *
+from pymla.model.base.estimator import BaseRegression
+import numpy as np
 
 class LinearRegression(BaseRegression):
     def fit(self, X : np.array, y : np.array):

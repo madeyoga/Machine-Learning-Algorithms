@@ -1,6 +1,6 @@
-from mla.algos.classification.naive_bayes import GaussianNB
-from mla.algos.preprocessing.encoder import LabelEncoder
-from mla.algos.metrics.score import accuracy_score
+from pymla.model.naive_bayes import GaussianNB
+from pymla.metrics.score import accuracy_score
+from pymla.preprocessing.encoder import LabelEncoder
 import pandas as pd
 
 df = pd.read_csv('Datasets/gwr.csv')

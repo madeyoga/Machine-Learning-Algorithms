@@ -1,4 +1,4 @@
-from mla.base.distances import euclidean_distance
+from pymla.model.base.distances import euclidean_distance
 import operator as op
 import numpy as np
 
