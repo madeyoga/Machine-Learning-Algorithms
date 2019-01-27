@@ -4,7 +4,14 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/MadeYoga/ML-Algos/issues)
 [![Discord Badge](https://discordapp.com/api/guilds/458296099049046018/embed.png)](https://discord.gg/Y8sB4ay)
 
-Machine Learning Algorithms
+Machine Learning Algorithms Implementation. Trying to create machine learning algorithms from scratch in simple way.
+Hope this project could help those who wanted to learn machine learning agorithms.
+
+## Requirements
+- Python 3.x
+
+## Dependencies
+- Numpy
 
 ## Available Algorithms
 - Label Encoder
